@@ -1,0 +1,13 @@
+{
+  "name": "@brunobrsampaio/fresh-cross-env",
+  "version": "1.0.1",
+  "exports": "./mod.ts",
+  "imports": {
+    "$fresh/": "https://deno.land/x/fresh@1.6.8/"
+  },
+  "publish": {
+    "exclude": [
+      ".github/**"
+    ]
+  }
+}
